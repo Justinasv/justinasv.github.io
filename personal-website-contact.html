@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Justinas Vaiciulis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="site-title"><a href="index.html">Justinas Vaiciulis</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p class="lead">I'm always open to discussing new projects, marketing strategies, or opportunities in the B2B space.</p>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out through any of these channels:</p>
+                        
+                        <ul class="contact-details">
+                            <li>
+                                <span class="contact-label">Email:</span>
+                                <a href="mailto:justinasvaiciulis@gmail.com">justinasvaiciulis@gmail.com</a>
+                            </li>
+                            <li>
+                                <span class="contact-label">Phone:</span>
+                                <a href="tel:+447582647343">+44 7582 647343</a>
+                            </li>
+                            <li>
+                                <span class="contact-label">LinkedIn:</span>
+                                <a href="https://uk.linkedin.com/in/justinasv" target="_blank">linkedin.com/in/justinasv</a>
+                            </li>
+                        </ul>
+                        
+                        <h3>What I'm Interested In</h3>
+                        <ul class="interests-list">
+                            <li>B2B SaaS marketing strategies</li>
+                            <li>Performance marketing innovation</li>
+                            <li>Account-based marketing approaches</li>
+                            <li>Marketing analytics and optimization</li>
+                            <li>Speaking opportunities</li>
+                            <li>Collaboration on marketing projects</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send Me a Message</h3>
+                        <form id="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="button primary">Send Message</button>
+                        </form>
+                        <p class="form-note">Note: This form is for demonstration purposes. To set up form functionality, you'll need to connect it to a form processing service or backend.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Justinas Vaiciulis. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/justinasv" target="_blank">LinkedIn</a>
+                    <a href="mailto:justinasvaiciulis@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('This form is currently just a demonstration. To make it functional, you would need to connect it to a form processing service or create a backend to handle submissions.');
+        });
+    </script>
+</body>
+</html>
