@@ -469,9 +469,14 @@ footer {
 .blog-list {
   list-style: none;
   padding: 0;
+  max-width: 680px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .blog-post {
+  width: 100%;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color);
